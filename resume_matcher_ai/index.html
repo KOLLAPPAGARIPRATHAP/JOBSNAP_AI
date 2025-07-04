@@ -1,0 +1,33 @@
+<div class="container">
+    <h1>🤖 JOBSNAP AI</h1>
+    <p>Compare your resume with a job description</p>
+    
+    <form method="post" enctype="multipart/form-data">
+    <label>📄 Upload Resume (PDF only):</label><br>
+    <input type="file" name="resume" required><br>
+    {% if resume_filename %}
+        <p style="color:#7de9ff;">✅ Uploaded: {{ resume_filename }}</p>
+    {% endif %}
+    <br>
+
+    <label>📝 Paste Job Description:</label><br>
+    <textarea name="jd_text" placeholder="Paste JD here..." required>{{ jd_text }}</textarea><br>
+
+    <button class="btn" type="submit">🔍 Analyze</button>
+</form>
+
+    {% if result %}
+    <div class="output">
+        <h3>🔍 Match Report</h3>
+        {{ result | safe }}
+    </div>
+    {% endif %}
+     <p style="margin: 5px 0;">Made by <strong>Prathap Kollappagari</strong></p>
+  <p style="margin: 5px 0;">
+    <img src="https://upload.wikimedia.org/wikipedia/commons/4/4e/Gmail_Icon.png" alt="Gmail" width="16" style="vertical-align:middle; margin-right:5px;">
+    <a href="mailto:prathapforgenai@gmail.com" style="color: #999; text-decoration: none;">prathapforgenai@gmail.com</a>
+    &nbsp;|&nbsp;
+    <img src="https://cdn-icons-png.flaticon.com/512/174/174857.png" alt="LinkedIn" width="16" style="vertical-align:middle; margin-right:5px;">
+    <a href="https://www.linkedin.com/in/prathap-john-492a71274/" target="_blank" style="color: #999; text-decoration: none;">LinkedIn</a>
+  </p>
+</div>

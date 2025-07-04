@@ -1,0 +1,104 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;600&display=swap');
+
+body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Inter', sans-serif;
+    background: linear-gradient(to right, #0f2027, #203a43, #2c5364);
+    color: #ffffff;
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    min-height: 100vh;
+}
+
+.container {
+    margin-top: 60px;
+    width: 90%;
+    max-width: 650px;
+    background: rgba(255, 255, 255, 0.06);
+    border-radius: 20px;
+    box-shadow: 0 8px 32px 0 rgba(31, 38, 135, 0.37);
+    backdrop-filter: blur(8px);
+    -webkit-backdrop-filter: blur(8px);
+    padding: 40px;
+    border: 1px solid rgba(255, 255, 255, 0.18);
+}
+
+h1 {
+    font-size: 2rem;
+    font-weight: 600;
+    margin-bottom: 10px;
+}
+
+p {
+    color: #ddd;
+    font-size: 1rem;
+    margin-bottom: 20px;
+}
+
+input[type="file"],
+textarea {
+    width: 100%;
+    background: rgba(255, 255, 255, 0.08);
+    border: none;
+    color: #fff;
+    padding: 14px;
+    border-radius: 10px;
+    font-size: 1rem;
+    margin-top: 10px;
+    margin-bottom: 20px;
+    transition: background 0.3s;
+}
+
+textarea::placeholder,
+input::placeholder {
+    color: #bbb;
+}
+
+textarea:focus,
+input[type="file"]:focus {
+    outline: none;
+    background: rgba(255, 255, 255, 0.12);
+}
+
+textarea {
+    height: 140px;
+    resize: none;
+}
+
+.btn {
+    padding: 14px 32px;
+    background: linear-gradient(135deg, #00c6ff, #0072ff);
+    border: none;
+    border-radius: 10px;
+    font-size: 16px;
+    font-weight: bold;
+    color: #fff;
+    cursor: pointer;
+    width: 100%;
+    transition: all 0.3s ease-in-out;
+    box-shadow: 0 4px 14px rgba(0, 198, 255, 0.4);
+}
+
+.btn:hover {
+    transform: scale(1.02);
+    box-shadow: 0 6px 18px rgba(0, 198, 255, 0.6);
+}
+
+.output {
+    text-align: left;
+    white-space: pre-wrap;
+    background: rgba(0, 0, 0, 0.4);
+    padding: 20px;
+    margin-top: 30px;
+    border-radius: 12px;
+    border-left: 6px solid #00f7ff;
+    box-shadow: inset 0 0 18px rgba(0, 198, 255, 0.3);
+}
+
+.output h3 {
+    margin-top: 0;
+    font-size: 1.2rem;
+    color: #00f7ff;
+}
