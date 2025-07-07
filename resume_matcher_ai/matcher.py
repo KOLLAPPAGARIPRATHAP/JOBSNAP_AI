@@ -31,7 +31,6 @@ You must:
 - Give a **Fit Score** out of 100
 - Show a **one-line hiring recommendation** 
 (e.g., - ✅ shortlisted
-  - ⚠️ Partially Fit
   - ❌ Rejected)
 
 Now format your output exactly like this (markdown styled). **Do not add any summary or explanation outside this format**:
