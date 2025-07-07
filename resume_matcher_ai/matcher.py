@@ -46,7 +46,7 @@ Now format your output exactly like this (markdown styled). **Do not add any sum
 💼 Internship Experience:** <months> months (<years> years)  
 
 ⚠️ Missing Skills:**  
-<comma-separated list or bullet points of missing/required skills>  
+<comma-separated list or bullet points of missing/required skills add missing experience also>  
 
 ---
 
