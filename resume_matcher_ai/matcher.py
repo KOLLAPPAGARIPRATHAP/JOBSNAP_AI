@@ -29,8 +29,9 @@ You must:
   - Internship experience (in months and years)
 - Extract key **matched skills** and **missing skills**
 - Give a **Fit Score** out of 100
-- Show a **one-line hiring recommendation** 
+- Show a **one-line hiring recommendation** based on fit score also for consideration
 (e.g., - ✅ shortlisted
+  - ⚠️ Partially Fit
   - ❌ Rejected)
 
 Now format your output exactly like this (markdown styled). **Do not add any summary or explanation outside this format**:
